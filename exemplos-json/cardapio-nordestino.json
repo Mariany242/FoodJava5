@@ -1,0 +1,88 @@
+{
+  "cardapio": [
+    {
+      "nome": "Macaxeira Frita com Carne de Sol",
+      "descricao": "Macaxeira crocante acompanhada de carne de sol acebolada e manteiga da terra.",
+      "preco": 24.90,
+      "categoria": "ENTRADA",
+      "disponivel": true
+    },
+    {
+      "nome": "Caldo de Mocotó",
+      "descricao": "Caldo tradicional nordestino, bem temperado e servido com cheiro-verde.",
+      "preco": 16.90,
+      "categoria": "ENTRADA",
+      "disponivel": true
+    },
+    {
+      "nome": "Baião de Dois",
+      "descricao": "Arroz, feijão-verde, queijo coalho, carne de sol desfiada e manteiga da terra.",
+      "preco": 42.90,
+      "categoria": "PRATO_PRINCIPAL",
+      "disponivel": true
+    },
+    {
+      "nome": "Carne de Sol com Macaxeira",
+      "descricao": "Carne de sol grelhada acompanhada de macaxeira cozida, manteiga da terra e vinagrete.",
+      "preco": 49.90,
+      "categoria": "PRATO_PRINCIPAL",
+      "disponivel": true
+    },
+    {
+      "nome": "Rubacão",
+      "descricao": "Prato típico preparado com arroz, feijão-verde, queijo coalho, nata e carne de sol.",
+      "preco": 44.90,
+      "categoria": "PRATO_PRINCIPAL",
+      "disponivel": true
+    },
+    {
+      "nome": "Escondidinho de Carne de Sol",
+      "descricao": "Purê de macaxeira recheado com carne de sol desfiada e queijo gratinado.",
+      "preco": 39.90,
+      "categoria": "PRATO_PRINCIPAL",
+      "disponivel": true
+    },
+    {
+      "nome": "Cartola",
+      "descricao": "Banana frita com queijo coalho, açúcar e canela.",
+      "preco": 15.90,
+      "categoria": "SOBREMESA",
+      "disponivel": true
+    },
+    {
+      "nome": "Pudim de Tapioca",
+      "descricao": "Sobremesa cremosa preparada com tapioca granulada, leite de coco e coco ralado.",
+      "preco": 13.90,
+      "categoria": "SOBREMESA",
+      "disponivel": true
+    },
+    {
+      "nome": "Mungunzá Doce",
+      "descricao": "Milho branco cozido com leite de coco, leite condensado e canela.",
+      "preco": 12.90,
+      "categoria": "SOBREMESA",
+      "disponivel": true
+    },
+    {
+      "nome": "Suco de Cajá",
+      "descricao": "Suco natural de cajá gelado (500 ml).",
+      "preco": 9.90,
+      "categoria": "BEBIDAS",
+      "disponivel": true
+    },
+    {
+      "nome": "Suco de Umbu",
+      "descricao": "Suco natural de umbu gelado (500 ml).",
+      "preco": 9.90,
+      "categoria": "BEBIDAS",
+      "disponivel": true
+    },
+    {
+      "nome": "Garapa com Limão",
+      "descricao": "Caldo de cana gelado com um toque de limão.",
+      "preco": 8.90,
+      "categoria": "BEBIDAS",
+      "disponivel": true
+    }
+  ]
+}

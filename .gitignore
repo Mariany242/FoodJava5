@@ -1,0 +1,4 @@
+target/
+src/main/resources/data/*.json
+src/main/resources/uploads/*
+!src/main/resources/uploads/.gitkeep
