@@ -192,9 +192,13 @@ public class FoodJavaApp extends Application {
         });
         Button confirmar = new Button("Confirmar pedido");
         confirmar.setOnAction(e -> executar(() -> {
-            pedidoController.confirmarPedido(usuarioLogado.getEmail());
-            info("Pedido confirmado.");
+            Pedido pedido = pedidoController.confirmarPedido(usuarioLogado.getEmail());
+
+            info("Pedido confirmado!\n\n"
+                    + "Valor total: R$ " + dinheiro(pedido.getValorTotal()));
+
             mostrarAreaCliente();
+
         }));
         return painelComLista("Carrinho", lista, total, new HBox(10, remover, confirmar));
     }
