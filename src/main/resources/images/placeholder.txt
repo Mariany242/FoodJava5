@@ -1,0 +1,1 @@
+Imagem padrão usada quando um item do cardápio não possui foto cadastrada.
