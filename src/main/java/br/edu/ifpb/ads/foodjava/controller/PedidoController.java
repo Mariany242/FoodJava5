@@ -23,6 +23,7 @@ public class PedidoController {
     }
 
     public List<ItemPedido> getCarrinho() {
+        System.out.println("Carrinho atual: " + carrinho);
         return carrinho;
     }
 

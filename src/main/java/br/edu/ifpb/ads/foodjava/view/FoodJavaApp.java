@@ -164,6 +164,7 @@ public class FoodJavaApp extends Application {
         adicionar.setOnAction(e -> {
             pedidoController.adicionarAoCarrinho(item);
             info("Item adicionado ao carrinho.");
+            mostrarAreaCliente();
         });
         HBox box = new HBox(12, dados, adicionar);
         box.setPadding(new Insets(10));
