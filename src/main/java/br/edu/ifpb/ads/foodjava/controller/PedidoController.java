@@ -30,7 +30,11 @@ public class PedidoController {
         carrinho.stream()
                 .filter(i -> i.getItemId().equals(item.getId()))
                 .findFirst()
-                .ifPresentOrElse(ItemPedido::incrementar, () -> carrinho.add(new ItemPedido(item, 1)));
+                .ifPresentOrElse(ItemPedido::incrementar,
+                        () -> carrinho.add(new ItemPedido(item, 1)));
+
+        System.out.println("Itens no carrinho: " + carrinho.size());
+
     }
 
     public void removerDoCarrinho(ItemPedido item) {
